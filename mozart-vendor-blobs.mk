@@ -12,9 +12,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_PACKAGES += \
-    hw_healthd \
-    oeminfo_nvm_server \
-    teecd
-
-$(call inherit-product, vendor/huawei/grace/grace-vendor-blobs.mk)
+PRODUCT_COPY_FILES += \
+	$(call find-copy-subdir-files,*,vendor/huawei/mozart/proprietary/,system/)
