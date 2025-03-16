@@ -12,4 +12,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, vendor/huawei/mozart/mozart-vendor-blobs.mk)
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,vendor/huawei/mozart/proprietary/,system/)
