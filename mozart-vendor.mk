@@ -27,6 +27,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/vendor/bin/mac_addr_normalization:$(TARGET_COPY_OUT_SYSTEM)/vendor/bin/mac_addr_normalization \
     $(VENDOR_PATH)/lib64/liboeminfo.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/liboeminfo.so \
     $(VENDOR_PATH)/lib64/libtfa9895.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libtfa9895.so \
+    $(VENDOR_PATH)/lib64/libHWCamCfgSvr.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libHWCamCfgSvr.so \
     $(VENDOR_PATH)/lib64/lib_nve_operation.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib_nve_operation.so \
     $(VENDOR_PATH)/lib64/libomx_vxe.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libomx_vxe.so \
     $(VENDOR_PATH)/lib64/libbalong_audio_ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libbalong_audio_ril.so \
@@ -38,6 +39,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib64/hw/audio.primary.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/audio.primary.hi3635.so \
     $(VENDOR_PATH)/lib64/hw/gps.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/gps.hi3635.so \
     $(VENDOR_PATH)/lib64/hw/lights.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/lights.hi3635.so \
+    $(VENDOR_PATH)/lib64/libHWCamCfgSvr_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libHWCamCfgSvr_jni.so \
     $(VENDOR_PATH)/lib64/lib_oeminfo_interface.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib_oeminfo_interface.so \
     $(VENDOR_PATH)/lib64/libaudioalgoservice_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudioalgoservice_jni.so \
     $(VENDOR_PATH)/lib64/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudioroute.so \
@@ -52,6 +54,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib64/liboeminfo_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/liboeminfo_jni.so \
     $(VENDOR_PATH)/lib/liboeminfo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liboeminfo.so \
     $(VENDOR_PATH)/lib/libtfa9895.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtfa9895.so \
+    $(VENDOR_PATH)/lib/libHWCamCfgSvr.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libHWCamCfgSvr.so \
     $(VENDOR_PATH)/lib/lib_nve_operation.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_nve_operation.so \
     $(VENDOR_PATH)/lib/libomx_vxe.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libomx_vxe.so \
     $(VENDOR_PATH)/lib/libbalong_audio_ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libbalong_audio_ril.so \
@@ -62,6 +65,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib/hw/audio.primary.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/audio.primary.hi3635.so \
     $(VENDOR_PATH)/lib/hw/hw_af_extend.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/hw_af_extend.default.so \
     $(VENDOR_PATH)/lib/hw/lights.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/lights.hi3635.so \
+    $(VENDOR_PATH)/lib/libHWCamCfgSvr_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libHWCamCfgSvr_jni.so \
     $(VENDOR_PATH)/lib/lib_oeminfo_interface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_oeminfo_interface.so \
     $(VENDOR_PATH)/lib/libaudioalgoservice_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioalgoservice_jni.so \
     $(VENDOR_PATH)/lib/libhuaweiaudioeffectutil.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhuaweiaudioeffectutil.so \
@@ -295,5 +299,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/etc/gps.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/gps.conf \
     $(VENDOR_PATH)/etc/sws/sws_config.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/sws/sws_config.txt \
     $(VENDOR_PATH)/etc/gps4752config.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/gps4752config.xml \
+    $(VENDOR_PATH)/bin/HwCamCfgSvr:$(TARGET_COPY_OUT_SYSTEM)/bin/HwCamCfgSvr \
     $(VENDOR_PATH)/bin/gpsdaemon:$(TARGET_COPY_OUT_SYSTEM)/bin/gpsdaemon \
     $(VENDOR_PATH)/bin/glgps4752:$(TARGET_COPY_OUT_SYSTEM)/bin/glgps4752
