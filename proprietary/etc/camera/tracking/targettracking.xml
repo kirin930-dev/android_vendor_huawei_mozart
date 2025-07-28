@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="gb2312"?>
+<?xml version="1.0" encoding="iso-8859-1"?>
 <Config>
         <TargetTracking>
           <gColor>0.72</gColor>                <!--检测直方图匹配阈值-->

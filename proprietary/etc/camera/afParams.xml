@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="GB2312"?>
+<?xml version="1.0" encoding="iso-8859-1"?>
 <HW_AF_PARAM>
     <otp vcmStart="0" vcmEnd="0" />
 	<step vcmStep1="32" boudary1="0" vcmStep2="0" boudary2="0" vcmStep3="0" />
