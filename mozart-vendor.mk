@@ -95,6 +95,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib/libaudioalgoservice_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioalgoservice_jni.so \
     $(VENDOR_PATH)/lib/libhuaweiaudioeffectutil.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhuaweiaudioeffectutil.so \
     $(VENDOR_PATH)/lib/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioroute.so \
+    $(VENDOR_PATH)/lib/libcamera_algo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcamera_algo.so \
     $(VENDOR_PATH)/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefrighthw.so \
     $(VENDOR_PATH)/lib/libstlport.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstlport.so \
     $(VENDOR_PATH)/lib/libion.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libion.so \
