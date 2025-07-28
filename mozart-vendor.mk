@@ -44,6 +44,15 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib64/libjpegenchw.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjpegenchw.so \
     $(VENDOR_PATH)/lib64/libHWCamCfgSvr_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libHWCamCfgSvr_jni.so \
     $(VENDOR_PATH)/lib64/lib_oeminfo_interface.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib_oeminfo_interface.so \
+    $(VENDOR_PATH)/lib64/hwcam/hwcam.hi3635.MOZART.s.mt9d015.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hwcam/hwcam.hi3635.MOZART.s.mt9d015.so \
+    $(VENDOR_PATH)/lib64/hwcam/hwcam.hi3635.MOZART.s.ov8858.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hwcam/hwcam.hi3635.MOZART.s.ov8858.so \
+    $(VENDOR_PATH)/lib64/hwcam/hwcam.hi3635.MOZART.p.ov8858.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hwcam/hwcam.hi3635.MOZART.p.ov8858.so \
+    $(VENDOR_PATH)/lib64/hwcam/hwcam.hi3635.MOZART.p.mt9d015.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hwcam/hwcam.hi3635.MOZART.p.mt9d015.so \
+    $(VENDOR_PATH)/lib64/hwcam/hwcam.hi3635.MOZART.s.imx219.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hwcam/hwcam.hi3635.MOZART.s.imx219.so \
+    $(VENDOR_PATH)/lib64/hwcam/hwcam.ddt.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hwcam/hwcam.ddt.so \
+    $(VENDOR_PATH)/lib64/hwcam/hwcam.hi3635.MOZART.p.ov2680.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hwcam/hwcam.hi3635.MOZART.p.ov2680.so \
+    $(VENDOR_PATH)/lib64/hwcam/hwcam.hi3635.MOZART.p.imx219.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hwcam/hwcam.hi3635.MOZART.p.imx219.so \
+    $(VENDOR_PATH)/lib64/hwcam/hwcam.hi3635.MOZART.s.ov2680.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hwcam/hwcam.hi3635.MOZART.s.ov2680.so \
     $(VENDOR_PATH)/lib64/libaudioalgoservice_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudioalgoservice_jni.so \
     $(VENDOR_PATH)/lib64/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudioroute.so \
     $(VENDOR_PATH)/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefrighthw.so \
@@ -73,6 +82,16 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib/libjpegenchw.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjpegenchw.so \
     $(VENDOR_PATH)/lib/libHWCamCfgSvr_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libHWCamCfgSvr_jni.so \
     $(VENDOR_PATH)/lib/lib_oeminfo_interface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_oeminfo_interface.so \
+    $(VENDOR_PATH)/lib/hwcam/hwcam.hi3635.MOZART.s.mt9d015.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hwcam/hwcam.hi3635.MOZART.s.mt9d015.so \
+    $(VENDOR_PATH)/lib/hwcam/hwcam.hi3635.MOZART.s.ov8858.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hwcam/hwcam.hi3635.MOZART.s.ov8858.so \
+    $(VENDOR_PATH)/lib/hwcam/hwcam.hi3635.MOZART.p.ov8858.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hwcam/hwcam.hi3635.MOZART.p.ov8858.so \
+    $(VENDOR_PATH)/lib/hwcam/hwcam.hi3635.m.MOZART.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hwcam/hwcam.hi3635.m.MOZART.so \
+    $(VENDOR_PATH)/lib/hwcam/hwcam.hi3635.MOZART.p.mt9d015.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hwcam/hwcam.hi3635.MOZART.p.mt9d015.so \
+    $(VENDOR_PATH)/lib/hwcam/hwcam.hi3635.MOZART.s.imx219.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hwcam/hwcam.hi3635.MOZART.s.imx219.so \
+    $(VENDOR_PATH)/lib/hwcam/hwcam.ddt.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hwcam/hwcam.ddt.so \
+    $(VENDOR_PATH)/lib/hwcam/hwcam.hi3635.MOZART.p.ov2680.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hwcam/hwcam.hi3635.MOZART.p.ov2680.so \
+    $(VENDOR_PATH)/lib/hwcam/hwcam.hi3635.MOZART.p.imx219.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hwcam/hwcam.hi3635.MOZART.p.imx219.so \
+    $(VENDOR_PATH)/lib/hwcam/hwcam.hi3635.MOZART.s.ov2680.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hwcam/hwcam.hi3635.MOZART.s.ov2680.so \
     $(VENDOR_PATH)/lib/libaudioalgoservice_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioalgoservice_jni.so \
     $(VENDOR_PATH)/lib/libhuaweiaudioeffectutil.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhuaweiaudioeffectutil.so \
     $(VENDOR_PATH)/lib/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioroute.so \
