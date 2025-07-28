@@ -29,6 +29,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib64/libtfa9895.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libtfa9895.so \
     $(VENDOR_PATH)/lib64/libHWCamCfgSvr.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libHWCamCfgSvr.so \
     $(VENDOR_PATH)/lib64/lib_nve_operation.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib_nve_operation.so \
+    $(VENDOR_PATH)/lib64/libjpu.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjpu.so \
     $(VENDOR_PATH)/lib64/libomx_vxe.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libomx_vxe.so \
     $(VENDOR_PATH)/lib64/libbalong_audio_ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libbalong_audio_ril.so \
     $(VENDOR_PATH)/lib64/libaudio_custom.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudio_custom.so \
@@ -37,8 +38,10 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib64/hw/memtrack.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/memtrack.hi3635.so \
     $(VENDOR_PATH)/lib64/hw/gralloc.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/gralloc.hi3635.so \
     $(VENDOR_PATH)/lib64/hw/audio.primary.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/audio.primary.hi3635.so \
+    $(VENDOR_PATH)/lib64/hw/camera.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/camera.hi3635.so \
     $(VENDOR_PATH)/lib64/hw/gps.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/gps.hi3635.so \
     $(VENDOR_PATH)/lib64/hw/lights.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/lights.hi3635.so \
+    $(VENDOR_PATH)/lib64/libjpegenchw.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjpegenchw.so \
     $(VENDOR_PATH)/lib64/libHWCamCfgSvr_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libHWCamCfgSvr_jni.so \
     $(VENDOR_PATH)/lib64/lib_oeminfo_interface.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib_oeminfo_interface.so \
     $(VENDOR_PATH)/lib64/libaudioalgoservice_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudioalgoservice_jni.so \
@@ -56,6 +59,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib/libtfa9895.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtfa9895.so \
     $(VENDOR_PATH)/lib/libHWCamCfgSvr.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libHWCamCfgSvr.so \
     $(VENDOR_PATH)/lib/lib_nve_operation.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_nve_operation.so \
+    $(VENDOR_PATH)/lib/libjpu.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjpu.so \
     $(VENDOR_PATH)/lib/libomx_vxe.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libomx_vxe.so \
     $(VENDOR_PATH)/lib/libbalong_audio_ril.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libbalong_audio_ril.so \
     $(VENDOR_PATH)/lib/libaudio_custom.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudio_custom.so \
@@ -63,8 +67,10 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib/hw/memtrack.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/memtrack.hi3635.so \
     $(VENDOR_PATH)/lib/hw/gralloc.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/gralloc.hi3635.so \
     $(VENDOR_PATH)/lib/hw/audio.primary.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/audio.primary.hi3635.so \
+    $(VENDOR_PATH)/lib/hw/camera.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/camera.hi3635.so \
     $(VENDOR_PATH)/lib/hw/hw_af_extend.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/hw_af_extend.default.so \
     $(VENDOR_PATH)/lib/hw/lights.hi3635.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/lights.hi3635.so \
+    $(VENDOR_PATH)/lib/libjpegenchw.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjpegenchw.so \
     $(VENDOR_PATH)/lib/libHWCamCfgSvr_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libHWCamCfgSvr_jni.so \
     $(VENDOR_PATH)/lib/lib_oeminfo_interface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib_oeminfo_interface.so \
     $(VENDOR_PATH)/lib/libaudioalgoservice_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioalgoservice_jni.so \
